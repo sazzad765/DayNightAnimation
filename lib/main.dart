@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/day_night_animation.dart';
+import 'package:flutter_animation/fancy_border.dart';
 import 'package:flutter_animation/sunrise_screen.dart';
 
 void main() {
@@ -19,8 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DayNightAnimation(),
-      // home: const SunriseScreen(),
+      // home: const DayNightAnimation(),
+      home: const FancyBorder(),
     );
   }
 }
